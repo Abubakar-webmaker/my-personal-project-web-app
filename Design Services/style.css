@@ -1,0 +1,415 @@
+:root {
+
+  /**
+   * colors
+   */
+
+  --violet-blue-crayola: hsla(234, 50%, 64%, 1);
+  --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
+  --white: hsla(0, 0%, 100%, 1);
+  --white_a3: hsla(0, 0%, 100%, 0.03);
+  --white_a8: hsla(0, 0%, 100%, 0.08);
+  --white_a12: hsla(0, 0%, 100%, 0.12);
+  --white_a70: hsla(0, 0%, 100%, 0.7);
+  --cultured: hsla(220, 20%, 97%, 1);
+  --lavender-web: hsla(233, 52%, 94%, 1);
+  --cadet-blue-crayola: hsla(220, 12%, 70%, 1);
+  --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
+  --charcoal: hsla(218, 22%, 26%, 1);
+  --raisin-black: hsla(216, 14%, 14%, 1);
+  --light-gray: hsla(0, 0%, 79%, 1);
+  --blue-crayola: hsla(219, 72%, 56%, 1);
+  --black-coral: hsla(220, 12%, 43%, 1);
+
+  /**
+   * typography
+   */
+
+  --ff-manrope: 'Manrope', sans-serif;
+
+  --fs-1: calc(2.7rem + 1.38vw);
+  --fs-2: calc(2.6rem + .66vw);
+  --fs-3: 2.2rem;
+  --fs-4: 1.9rem;
+  --fs-5: 1.8rem;
+  --fs-6: 1.7rem;
+  --fs-7: 1.5rem;
+  --fs-8: 1.4rem;
+  
+  --fw-700: 700;
+
+  /** 
+   * spacing
+   */
+
+  --section-padding: 90px;
+
+  /**
+   * box shadow
+   */
+
+  --shadow-1: 0 0 20px hsla(216, 14%, 14%, 0.05);
+  --shadow-2: 0 0 0 0.05rem hsla(214, 88%, 27%, 0.08), 0 0 1.25rem hsla(216, 14%, 14%, 0.06);
+  --shadow-3: 0 0 1.25rem hsla(216, 14%, 14%, 0.04);
+
+  /**
+   * border radius
+   */
+
+  --radius-circle: 50%;
+  --radius-pill: 100px;
+  --radius-10: 10px;
+  --radius-8: 8px;
+  --radius-6: 6px;
+
+  /**
+   * transition
+   */
+
+  --transition-1: 0.25s ease;
+  --transition-2: 0.5s ease;
+  --transition-3: 0.3s ease-in-out;
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ /* Navbar Section Start  */
+ .navbar {
+    background-image: url("./src/images/stats-bg.jpg");
+ }
+
+.navbar .nav .logo {
+    color: white;
+    font-family: var(--ff-manrope);
+    font-size: 7vh;
+    font-weight: 800;
+    padding-left: 60px;
+    padding-top: 0px;
+ }
+
+.navbar .nav .link .lilink .alink {
+    color: white;
+    font-family: var(--ff-manrope);
+    font-weight: 800;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.navbar .nav .link .ullink {
+    padding-left: 150px;
+}
+
+.navbar .nav .link .lilink .alink:hover {
+    color: var(--violet-blue-crayola);
+}
+
+.navbar .nav .link .bu .butt {
+    padding: 10px 20px ;
+    color: var(--violet-blue-crayola);
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+.navbar .nav .link .bu {
+    padding-right: 60px;
+}
+
+.navbar .nav .link .bu .butt:hover {
+    background-color: var(--violet-blue-crayola);
+    color: white;
+}
+ /* Navbar Section End  */
+
+ /* Hero Section Start */
+.Hero {
+    background-image: url("./src/images/stats-bg.jpg");
+    display: flex;
+    justify-items: center;
+    height: 95vh;
+}
+
+.Hero .Herodiv {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.Hero .Herodiv h1,p,a {
+    font-family: var(--ff-manrope);
+}
+
+.Hero .Herodiv a {
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    font-weight: 500;
+    font-size: 3vh;
+    color: var(--violet-blue-crayola);
+}
+
+.slider {
+   padding-right: 10px;
+    width: 45%;
+}
+
+.slider .slider1{
+    width: 30vh;
+    height: 10vh;
+    border-radius: 30px;
+}
+
+.slider .slider1 .carousel-item img {
+    width: 30vh;
+    height: 10vh;
+    border-radius: 30px;
+}
+
+.slider1 .carousel-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+ /* Hero Section End  */
+
+ /* Heading Section Start */
+.heading {
+    text-align: center;
+    font-family: var(--ff-manrope);
+    width: 60%;
+    margin-left: 42vh;
+}
+
+.heading h6 {
+     color: var(--violet-blue-crayola);
+     font-weight: 600;
+}
+
+.heading h1 {
+    color: var(--charcoal);
+    font-weight: 600;
+}
+ /* Heading Section End  */
+
+ /* Facilities card Section Start  */
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+}
+
+.card1 {
+    text-align: center;
+    border: none;
+}
+
+.card{
+    border: none !important;
+}
+.card i{
+    font-size: 40px;
+    color: var(--violet-blue-crayola);
+    
+}
+
+.card-text {
+    color: var(--black-coral);
+}
+
+.card-body button {
+     border: none;
+     background-color: white;
+}
+
+ /* Facilities card Section End  */
+
+/* <!-- Information Section Start  --> */
+.image .img-fluid {
+    height: 60vh;
+    
+}
+
+.with {
+    max-width: 1040px;
+    padding-left: 50vh;
+}
+.acc-head{
+  cursor:pointer;
+  font-weight:600;
+  margin-top:10px;
+}
+
+.acc-body{
+  display:none;
+  color:#555;
+}
+
+.acc-body.show{
+  display:block;
+}
+
+.acc-head.active{
+  color:#5b5bff;
+}
+
+/* <!-- Information Section End  --> */
+
+/* Detail Section Section Start  */
+.detail {
+    background-image: url("./src/images/stats-bg.jpg");
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+    height: 30vh;
+}
+
+.detail2 {
+    padding-top: 50px;
+}
+
+.detail2 h3, p {
+    color: white;
+    font-weight: 400;
+    font-family: var(--ff-manrope);
+}
+/* Detail Section Section End  */
+
+/* Service Card Section Start */
+.mmm {
+    padding-left: 120px;
+    padding-right: 120px;
+    
+
+}
+
+.ccc {
+background-color: var(--dark-cornflower-blue_a7);
+}
+
+.ccc .hphphp {
+    padding: 20px 30px;
+    text-align: center;
+    font-family: var(--ff-manrope);
+}
+/* Service Card Section End  */
+
+/* Footer Section Start  */
+.coloree {
+    background-color: var(--charcoal);
+}
+
+.container h5 {
+    font-size: 4vh;
+}
+
+.container h5:hover {
+    color: #5b5bff;
+}
+
+.container .bi {
+    color: white;
+    
+}
+
+.container .bi:hover {
+    color: #5b5bff;
+}
+/* Footer Section End  */
+
+ @media (max-width: 991px) {
+
+ /* Navbar Section Start  */
+.navbar .nav .link .ullink {
+    padding-left: 0px;
+}
+
+.navbar .nav .link .bu {
+    padding-left: 50px;
+}
+ /* Navbar Section End  */
+
+ /* Hero Section Start */
+.Hero {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .Hero .Herodiv {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .slider {
+        width: 100%;
+        margin-top: 20px;
+        padding-right: 0;
+    }
+
+    .slider .slider1 .carousel-item img {
+        height: 250px;
+    }
+
+    .Hero .Herodiv a {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+ /* Hero Section End  */
+
+  /* Hero Section End  */
+.heading {
+    text-align: center;
+    font-family: var(--ff-manrope);
+    width: 100%;
+    margin-left: 0;
+}
+
+ /* Heading Section Start */
+
+ /* Facilities card Section Start  */
+.flex {
+    display: block;
+    padding-left: 50px;
+}
+
+.card1 {
+    text-align: center;
+}
+ /* Facilities card Section End  */
+
+/* Information Section Start  */
+.with {
+    padding-left: 0vh;
+}
+/* Information Section End  */
+
+/* Detail Section Section Start  */
+
+.detail {
+    display: block;
+    justify-content: center;
+    gap: 0px;
+    text-align: center;
+    
+    height: 70vh;
+    border-radius: 0px;
+}
+.detail2 {
+    padding-top: 10px;
+}
+/* Detail Section Section End  */
+/* Service Card Section Start */
+.mmm {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* Service Card Section End  */
+
+/* Footer Section Start  */
+
+/* Footer Section End  */
+}

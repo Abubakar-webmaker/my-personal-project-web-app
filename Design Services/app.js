@@ -1,0 +1,10 @@
+document.querySelectorAll(".acc-head").forEach(h=>{
+  h.onclick=()=>{
+    document.querySelectorAll(".acc-head").forEach(x=>{
+      x.classList.remove("active");
+      x.nextElementSibling.classList.remove("show");
+    });
+    h.classList.add("active");
+    h.nextElementSibling.classList.add("show");
+  }
+});
