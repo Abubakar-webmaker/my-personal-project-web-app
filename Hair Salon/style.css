@@ -1,0 +1,459 @@
+:root {
+
+  /**
+   * colors
+   */
+
+  --rich-black-fogra-39_50: hsla(0, 0%, 5%, 0.5);
+  --rich-black-fogra-39: hsl(0, 0%, 5%);
+  --indian-yellow_10: hsla(36, 61%, 58%, 0.1);
+  --indian-yellow: hsl(36, 61%, 58%);
+  --harvest-gold: hsl(36, 66%, 53%);
+  --eerie-black-1: hsl(0, 0%, 14%);
+  --eerie-black-2: hsl(0, 0%, 12%);
+  --eerie-black-2_85: hsla(0, 0%, 12%, 0.85);
+  --eerie-black-3: hsl(0, 0%, 8%);
+  --sonic-silver: hsl(0, 0%, 44%);
+  --davys-gray: hsl(210, 9%, 31%);
+  --light-gray: hsl(0, 0%, 80%);
+  --platinum: hsl(0, 0%, 91%);
+  --black_30: hsla(0, 0%, 0%, 0.3);
+  --white_10: hsla(0, 0%, 100%, 0.1);
+  --white_30: hsla(0, 0%, 100%, 0.3 );
+  --white_50: hsla(0, 0%, 100%, 0.5);
+  --white: hsl(0, 0%, 100%);
+  --jet: hsl(0, 0%, 21%);
+
+  /**
+   * typography
+   */
+
+  --ff-oswald : 'Oswald', sans-serif;
+  --ff-rubik: 'Rubik', sans-serif;
+
+  --fs-40: 4rem;
+  --fs-30: 3rem;
+  --fs-24: 2.4rem;
+  --fs-18: 1.8rem;
+  --fs-14: 1.4rem;
+  --fs-13: 1.3rem;
+
+  --fw-300: 300;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  /**
+   * spacing
+   */
+
+  --section-padding: 80px;
+
+  /**
+   * shadow
+   */
+
+  --shadow-1: 10px 0 60px hsla(0, 0%, 15%, 0.07);
+  --shadow-2: 10px 0 60px hsla(0, 0%, 15%, 0.1);
+
+  /**
+   * radius
+   */
+
+  --radius-5: 5px;
+  --radius-8: 8px;
+
+  /**
+   * transition
+   */
+
+  --transition-1: 0.25s ease;
+  --transition-2: 0.5s ease;
+  --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+
+}
+
+/* Navbar Section Start  */
+.navbar1 {
+  background-color: black;
+}
+
+.nav {
+  padding-top: 10px 20px;
+  
+}
+
+.navbar1 i {
+  color: var(--indian-yellow);
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+.navbar1 i:hover {
+  color: var(--harvest-gold);
+}
+
+.navbar1 span {
+  color: var(--light-gray);
+  font-family: var(--ff-oswald);
+}
+
+.navbar1 span:hover {
+  color: var(--indian-yellow);
+}
+
+/* 2 */
+
+.nav1 {
+  background-color: black;
+  position: fixed;
+}
+
+.nav1 .aaa{
+  color: white;
+  font-family: var(--ff-oswald);
+}
+
+.nav2 .aaa {
+  color: var(--indian-yellow);
+  padding-left: 40px;
+}
+
+.nav2 .aaa:hover {
+  color: white;
+}
+
+.nav-item {
+  padding-left: 50px;
+  gap: 0;
+   font-family: var(--ff-oswald);
+}
+
+.nav-item a{
+  color: white;
+  font-weight: 600;
+
+}
+
+.nav-item a:hover {
+  color: var(--indian-yellow);
+}
+
+.buttiii {
+  background-color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: x-large;
+  font-weight: 600;
+   font-family: var(--ff-oswald);
+}
+.buttiii:hover {
+  background-color: var(--indian-yellow);
+  color: white;
+}
+/* Navbar Section End  */
+
+/* Hero Section Start  */
+.img {
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/hero-banner.jpg');
+  height: 100vh;
+}
+
+.hp {
+  color: var( --white);
+  padding-left: 20vh;
+  padding-top: 20vh;
+  font-family: var(--ff-oswald);
+}
+
+.hp h1 {
+  font-size: 10vh;
+}
+
+.hp p {
+  font-size: larger;
+}
+
+/* Hero Section End */
+
+/* heading Section  Start  */
+.hphphp {
+  text-align: center;
+}
+
+.hphphp h1 {
+  color: black;
+  font-size: 10vh;
+}
+
+.hphphp p {
+  font-size: 3vh;
+}
+/* heading Section  End */
+
+/* Card section start  */
+.flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.style {
+  width: 120px; height: 100px; border-radius: 50px; font-size: large;
+}
+
+.card1 .anas {
+  color: var(--harvest-gold);
+  font-family: var(--ff-oswald);
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.card1 .wwww {
+   font-family: var(--ff-oswald);
+}
+
+.next .iii {
+ font-size: xx-large;
+ color: var(--harvest-gold);
+}
+
+.next .iii:hover {
+   color: gray;
+}
+/* Card section End  */
+
+/* Product Section Start */
+
+.image {
+  height: 100vh;
+   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/pricing-bg.jpg');
+}
+
+.butt {
+  text-align: center;
+  background-color: inherit;
+  font-size: large;
+  padding: 10px 20px;
+}
+
+.butt:hover {
+  background-color: inherit;
+}
+
+.butt button {
+  padding: 10px 20px;
+  border-radius: 30px;
+ border: 2px solid var(--harvest-gold);
+  font-family: var(--ff-oswald);
+  font-weight: 500;
+}
+
+.butt button:hover {
+  background-color: var(--harvest-gold);
+  color: white;
+}
+
+
+.price {
+  width: 440px; border: none;
+  height: auto;
+}
+
+.ppppp {
+  padding-left: 150px;
+  padding-top: 60px;
+}
+
+.ioio img {
+  border-radius: 30px;
+}
+
+.fffff {
+  display: flex;
+}
+
+#hppp {
+  padding-top: 70px;
+}
+/* Product Section End  */
+
+/* <!-- Gallery Section Start  --> */
+.hphp {
+  padding-left: 100px;
+}
+
+.explore {
+  display: flex;
+  gap: 60vh;
+}
+
+.gsgs {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+/* <!-- Gallery Section End  --> */
+
+
+.imgimg {
+  background-color: var(--harvest-gold);
+  width: 100%;
+ 
+}
+
+.foobg {
+  background-image: url('./images/footer-bg.png');
+}
+
+
+
+
+
+ @media (max-width: 991px) {
+/* Navbar Section Start  */
+.navbar1 {
+  width: 100%;
+}
+.navbar1 i {
+  color: var(--indian-yellow);
+  padding-left:20px;
+  padding-top: 0px;
+}
+
+/* 2 */
+.nav2 .aaa {
+  padding-left: 0px;
+}
+.nav-item {
+  padding-left: 0px;
+
+}
+.buttiii{
+  font-size: large;
+}
+
+/* Hero Section Start  */
+.img {
+  background-image: url(./images/hero-banner.jpg);
+  height: 70vh;
+  width: 100%;
+}
+
+.hp {
+  padding-left: 0vh;
+  padding-top: 15vh;
+  text-align: center;
+}
+
+.hp h1 {
+  font-size: 5vh;
+}
+
+.hp p {
+  font-size: smaller;
+}
+
+.buttiii {
+  font-size: smaller;
+}
+/* Hero Section End  */
+
+/* heading Section  Start  */
+.hphphp {
+  text-align: center;
+}
+.hphphp h1 {
+  color: black;
+  font-size: 8vh;
+}
+.hphphp p {
+  font-size: 3vh;
+}
+/* heading Section  End */
+
+
+/* Card section start  */
+.flex {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+/* Card section End  */
+
+/* Product Section Start */
+
+
+.image {
+  height: 180vh;
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/pricing-bg.jpg');
+}
+.butt {
+  text-align: center;
+  background-color: inherit;
+  font-size: smaller;
+  padding: 10px 20px;
+}
+
+.butt:hover {
+  background-color: inherit;
+}
+
+.butt button {
+  padding: 10px 20px;
+  border-radius: 30px;
+ border: 2px solid var(--harvest-gold);
+  font-family: var(--ff-oswald);
+  font-weight: 500;
+}
+
+.butt button:hover {
+  background-color: var(--harvest-gold);
+  color: white;
+}
+
+
+.price {
+  width: 200px; border: none;
+}
+
+.ppppp {
+  padding-left: 50px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.ioio img {
+  border-radius: 30px;
+}
+
+.fffff {
+  display: block;
+}
+
+#hppp {
+  padding-top: 0px;
+}
+/* Product Section End  */
+
+
+/* <!-- Gallery Section Start  --> */
+.hphp {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.explore {
+  display: block;
+  gap: 10vh;
+}
+
+.gsgs {
+  display: block;
+  gap: 10px;
+  justify-content: center;
+  padding-left: 16px;
+}
+/* <!-- Gallery Section End  --> */
+}
